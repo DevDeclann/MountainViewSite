@@ -1,0 +1,30 @@
+:root {
+  --primary: #fff;
+  --black: #000;
+}
+
+.btn {
+  padding: 17px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-main {
+  background: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--black);
+  border: 1px solid var(--black);
+  transition: 0.4s;
+}
+
+.btn-outline:hover {
+  background: var(--black);
+  color: #fff;
+  transition: 0.4s;
+}

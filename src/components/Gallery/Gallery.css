@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+}
+
+.main-container .gallery-content h1 {
+  color: #000;
+  margin-top: -30%;
+}
